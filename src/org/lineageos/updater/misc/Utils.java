@@ -151,7 +151,7 @@ public class Utils {
 
         String serverUrl = SystemProperties.get(Constants.PROP_UPDATER_URI);
         if (serverUrl.trim().isEmpty()) {
-            serverUrl = "https://raw.githubusercontent.com/aosap-devices/api/master/{device}.json";
+            serverUrl = "https://downloads.sourceforge.net/project/aosap-unofficial/update.json";
         }
 
         return serverUrl.replace("{device}", device)
